@@ -187,6 +187,11 @@ select {
 .navbar li {
   list-style: none;
   display: inline-block;
+  /* ---------- prof comment ----------
+    
+You should not be using `px`!
+
+---------- end prof comment ---------- */
   padding: 0 20px;
 }
 
@@ -403,7 +408,12 @@ font-size: 1.150rem;
   margin-top: 1rem;
 }
 
+/* ---------- prof comment ----------
 
+You should be using min-width media queries only!
+We work mobile first in this program.
+
+---------- end prof comment ---------- */
 @media only screen and (max-width: 60em) {
     .card-group .container {
         display: grid;
@@ -419,6 +429,12 @@ font-size: 1.150rem;
 
   }
 
+  /* ---------- prof comment ----------
+
+You should be using min-width media queries only!
+We work mobile first in this program.
+
+---------- end prof comment ---------- */
   @media only screen and (max-width: 38em) {
     .card-group .container {
         display: grid;
@@ -587,7 +603,12 @@ font-size: 1.150rem;
 .recent-post__link{
   text-decoration: none;  
 }
+/* ---------- prof comment ----------
 
+You should be using min-width media queries only!
+We work mobile first in this program.
+
+---------- end prof comment ---------- */
 @media only screen and (max-width: 60em) {
   
   .container--grid {
